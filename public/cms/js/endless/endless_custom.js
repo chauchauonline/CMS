@@ -1,0 +1,30 @@
+$(function(){
+
+  $('#carlineslider').owlCarousel({
+    loop:false,
+    margin:0,
+    responsiveClass:true,
+    nav:true,
+    dots:false,
+    autoplay:false,
+    autoHeight:false,
+    autoplayTimeout:4000,
+    autoplayHoverPause:false,
+    navText:false,
+    responsive:{
+      0:{
+        items:1
+      },
+      481:{
+        items:2
+      },
+      768:{
+        items:3
+      },
+      992:{
+        items:4
+      }
+    }
+  });
+
+});

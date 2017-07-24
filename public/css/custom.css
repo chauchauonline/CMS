@@ -1,0 +1,14 @@
+/*Validate form*/
+.error {
+  color: #FB3A3A;
+  display: inline-block;
+  text-align: left;
+}
+.text-red {
+  color: #FB3A3A;
+}
+
+.contact_label{
+    padding: 11px 7px !important;
+    text-align: right;
+}

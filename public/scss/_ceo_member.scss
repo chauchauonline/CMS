@@ -1,0 +1,102 @@
+.sub-banner{
+  position: relative;
+}
+
+.sort-desc{
+  background: #f3f3f3;
+  padding:30px 0;
+  .lead{
+    width: 700px;
+    margin: 0 auto;
+    font-size: 22px;
+  }
+}
+.content{
+  float: left;
+  width: 70%;
+}
+.sidebar{
+  float:right;
+  width: 30%;
+  text-align: right;
+  h6{
+    border-bottom: 3px solid;
+    padding-bottom: 3px;
+    font-size: 20px;
+    width: 300px;
+    text-align: right;
+    float: right;
+    margin-bottom: 20px;
+  }
+  ul{
+    li{
+      margin-bottom: 20px;
+      img{
+        width: 300px;
+          border-bottom: 1px solid #ddd;
+      }
+    }
+  }
+}
+.member-list{
+  background: #f3f3f3;
+}
+.member-directory{
+  article{
+    margin-bottom:20px;
+    padding:30px 10px;
+    background: #FFF;
+    .button{
+      border: 2px solid silver;
+      @include border-radius(5px);
+      padding:10px;
+      transition: all .2s ease;
+      -webkit-transition: all .2s ease;
+      -moz-transition: all .2s ease;
+    }
+  }
+  .logo,.panel{
+    display: inline-block;
+    vertical-align: top;
+  }
+  .logo{
+    margin-right: 3px;
+    img{
+      width: 182px;
+      height: 100px;
+    }
+  }
+  .panel{
+    h6{
+      line-height: 1.6em;
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    p{
+      font-size: 16px;
+      line-height: 1.8;
+      a{
+        color: #AE4141;
+      }
+    }
+  }
+  .more-memeber{
+    text-align: right;
+    margin:30px 0 50px 0;
+    .button{
+      background: #ff3e3e;
+      color: #FFFFFF;
+      font-weight: 700;
+      padding:15px 20px;
+      @include border-radius(3px);
+    }
+  }
+}
+.member-detail{
+  .content{
+    width: 100%;
+  }
+  .detail-panel{
+    width: 80%;
+  }
+}

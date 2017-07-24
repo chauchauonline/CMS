@@ -1,0 +1,13 @@
+/* 
+    Created on : Jun 6, 2016, 10:38:45 AM
+    Author     : haunt6232
+*/
+.field-asterisk {
+    color:red;
+    margin-left: 3px;
+    font-size: 10px;
+}
+
+.table>thead>tr>td, .table>tbody>tr>td {
+    vertical-align: middle;
+}

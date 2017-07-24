@@ -1,0 +1,117 @@
+h2.page-title {
+    font-size: 20px;
+    display: inline-block;
+    border-bottom: 3px solid;
+    padding-bottom: 7px;
+    margin: 40px 0 20px 0;
+}
+input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], textarea {
+    -webkit-appearance: none;
+    background-color: #fff;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    color: rgba(0,0,0,.75);
+    display: block;
+    font-size: .875rem;
+    margin: 0 0 1rem;
+    padding: .5rem;
+    height: 2.3125rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: box-shadow .45s,border-color .45s ease-in-out;
+}
+.lead{
+  font-size: 1.21875rem;
+  line-height: 1.6;
+}
+.clearfix{
+  clear: both;
+}
+.centered{
+  text-align: center;
+}
+.col-md-6{
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+  text-align: center;
+}
+.arrow {
+    width: 0;
+    height: 0;
+    border: 17px solid transparent;
+    border-top-color: #d53127;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -1px;
+}
+/*CEO home about*/
+.ceo_about{
+  padding-bottom: 60px;
+  border-top: #e0e0e0 5px solid;
+  .fronttitle{
+    padding:30px 0 30px 0;
+  }
+  .col-md-6{
+    img{
+      width: 350px;
+      border: #ededed 1px solid;
+      padding: 5px;
+    }
+    &.desc{
+      padding-top: 20px;
+      text-align: justify;
+    }
+  }
+  .arrow{
+    border-top-color: #e0e0e0;
+  }
+}
+/*ceo_member*/
+.ceo_member{
+  border-top:#a40101 5px solid;
+  .arrow{
+    border-top-color: #a40101;
+  }
+}
+.ceo_member{
+  padding-bottom: 40px;
+  .fronttitle{
+    padding:30px 0 30px 0;
+  }
+  .swiper-wrapper{
+    text-align: center;
+    .swiper-slide{
+      display: inline-block;
+    }
+  }
+  article{
+    figure{
+      margin-bottom: 10px;
+      img{
+        -moz-border-radius: 100%; //Firefox: 3.0
+        -webkit-border-radius: 100%; //Chrome: 4.0, Safari: 3.1, Firefox: 3.0
+        border-radius: 100%;//Chrome 5.0, Ie: 9.0, Firefox 4.0, Safari: 5.0, Opera: 10.5
+        width: 155px;
+        height: 155px;
+      }
+    }
+    figcaption{
+      background: #e0e0e0;
+      padding: 15px 10px;
+      width: 200px;
+      margin: 0 auto;
+      .fullname{
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .title{
+        font-size: 12px;
+        text-align: left;
+      }
+    }
+  }
+}

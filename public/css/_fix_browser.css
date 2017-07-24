@@ -1,0 +1,64 @@
+/*Firefox*/
+.ff .service-menu ul li a span {
+  display: block;
+}
+
+.ff .banner .swiper-container .slide1 h3 {
+  top: 275px;
+}
+
+.ff .banner .swiper-container .slide2 h3 {
+  top: 208px;
+}
+
+.ff .banner .swiper-container .slide3 h3 {
+  top: 208.4px;
+}
+
+/*Internet Explorer
+-- ver 9.*/
+@media all and (min-width: 641px) {
+  .ie .templ .contact, .ie .templ .style {
+    clear: both !important;
+  }
+  .ie .service-menu ul li a span {
+    clear: both !important;
+    width: 100% !important;
+    display: block !important;
+  }
+  .ie .recruit-action ul li:last-child .wpr.active::before {
+    height: 60.2px;
+  }
+  .ie .searchform {
+    height: 27px;
+  }
+  .ie .searchform input {
+    height: 27px;
+    padding: 0;
+  }
+  .ie .recruit-action ul li .wpr:before {
+    height: 61px;
+  }
+}
+
+.android .recruit-content ul li h3 span {
+  margin-top: -6px;
+}
+
+/*Fix mac*/
+.mac .banner .swiper-container h3.textcenter {
+  padding-top: 3px;
+}
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+@media all and (max-width: 640px) {
+  .ff .jsn-master {
+    max-width: 100%;
+  }
+  .ff .mejs-video, .ff .mejs-overlay-play {
+    width: 100% !important;
+  }
+}

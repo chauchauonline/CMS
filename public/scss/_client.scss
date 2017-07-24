@@ -1,0 +1,135 @@
+.listclients {
+	.jcarousel {
+		ul {
+			width: 20000em;
+			position: relative;
+			@include clearfix;
+			li {
+			    padding-right: 0;
+			    min-width: 460px;
+			    margin-right: 60px;
+			    &:last-child {
+			    	margin-right: 0;
+			    
+			    }
+				img {
+					margin-right: 30px;
+
+				}
+				span {
+				    padding-top: 5px;
+				    display: block;
+				    font-style: italic;
+				    line-height: 1.5;
+				    margin-bottom: 15px;
+				    text-align: justify;
+				    float: left;
+				    width: 300px; 
+				}
+				a {
+					img {
+						margin-right: 0;
+						float: right;
+						width: 25%;
+						 margin-right: 2px;
+					}
+				}
+			}
+		}
+	}
+	.swiper-container {
+	    width: 80%;
+    	margin-left: 10%;
+		.swiper-wrapper {
+			width: 285px;
+		    padding-top: 10px;
+			li {
+			    width: 225px !important;
+			    margin-left: 0px;
+			    margin-right: 5px;
+			    >a {
+			    	float: right;
+				    img {
+				    	margin-right: 0;
+				    }
+			    }
+			}
+		}
+	}
+	>a {
+			width: 26px;
+			height: 125px;
+			display: block;
+			background: none no-repeat center center transparent;
+			cursor: pointer;
+			&.backbtn {
+				float: left;
+				background-image: url(../img/back.png);
+				margin-right: 39px;
+			}
+			&.nextbtn {
+				float: right;
+				background-image: url(../img/next.png);
+				margin-left: 37px;
+			}
+		}
+}
+.clients {
+	.fronttitle {
+	       padding: 68px 0 63px 0;
+	}
+}
+.jcarousel {
+    padding-bottom: 107px;
+    margin-bottom: 11px;
+    background: url(../img/boxshadow.png) no-repeat bottom center;
+    max-width: 88.2%;
+    overflow: hidden;
+}
+.listlogo {
+	margin-bottom: 102px;
+	padding: 0 22px;
+	a {
+	}
+	.mcol50 {
+		padding: 10px 41.5px;
+		display: inline-block;
+		    width: 24%;
+	}
+}
+@media all and (max-width: 768px){
+	.jcarousel {
+	    max-width: 75%;
+    	margin-left: 12.5%;
+	}
+	.listclients {
+	    text-align: center;
+		.swiper-container {
+		   	width: 230px;
+		    text-align: left;
+		    float: none;
+		    display: inline-block;
+		    margin-left: 0px;
+		    padding-bottom: 20px;
+		    .swiper-wrapper {
+
+		    	li {
+		    		>a {
+					    margin-right: 5px;
+					    margin-top: 8px;
+		    		}
+		    	}
+		    }
+		}
+	}
+}
+@media all and (max-width: 320px){
+	.listclients {
+		text-align: left;
+		.swiper-container {
+			margin-left: 10%;
+			display: block;
+		}
+	}
+	
+}

@@ -1,0 +1,141 @@
+.footer {
+	background: #214140;
+	color: #ececec;
+	padding-top: 31px;
+	padding-bottom: 15px;
+	font-size: 14px;
+	line-height: 21px;
+	.row {
+		.tpfooter {
+			    margin-right: 83px;
+			&:last-child{
+				margin-right:0;
+			}
+		}
+		 .col16{
+		       width: 17.66667%;
+		 }
+	}
+	h3 {
+		width: 100%;
+		border-bottom: 1px solid #415d5c;
+		padding-bottom: 3px;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		font-size: 13px;
+		color:#fff;
+	}
+	p {
+		margin: 0 0 6px 0;
+	}
+	a {
+		color: #ececec;
+		&:hover {
+			color:#fff;
+		}
+	}
+	.links {
+			 @include clearfix;
+				li {
+					width: 50%;
+					float: left;
+				}
+	}
+	.maps {
+		background: url(../img/map.png) no-repeat 10px center #224443;
+		display:inline-block;
+		color: #ececec;
+		font-size: 12px;
+		margin-top: 15px;
+		padding: 2px 14px 2px 32px;
+		@include background-size(14px 17px);
+		border:1px solid #415d5c;
+		&:hover {
+		background-color: #2e5252;
+		}
+	}
+	.copyright {
+		@include clearfix;
+		border-top:1px solid #415d5c;
+		margin-top: 43px;
+		padding-top: 10px;
+		color:#e4e4e4;
+	}
+	.listtranfer {
+		ul {
+			@include clearfix;
+			li {
+				float: left;
+				a {
+					border-right:1px solid #808182;
+					padding: 0 7px;
+				}
+				&:last-child{
+					a{
+						border-right:none;
+						padding-right: 0;
+					}
+				}
+			}
+		}
+	}
+}
+.socialicon {
+	margin-top: 17px;
+	@include clearfix;
+	li {
+		float: left;
+		margin-right: 10px;
+		a {
+			width: 39px;
+			height: 40px;
+			display: inline-block;
+			background: url(../img/socialhv.png) no-repeat 0 0 transparent;
+			opacity: 0.3;
+			&.gg {
+				background-position: -48px 0;
+			}
+			&.yt {
+				background-position: -96px 0;
+			}
+			&:hover{
+				opacity: 1;
+			}
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+/*Back to top*/
+.backtotop {
+/*border-radius: 50%;
+    box-shadow: 0 0 1px #ccc;*/
+	display: none;
+	position: fixed;
+    bottom: 55px;
+    right: 33px;
+    z-index: 999;
+}
+@media all and (max-width: 768px){
+	.footer{
+		font-size: 12px;
+		padding-top: 24px;
+
+	h3 {
+		font-size: 12px;
+		margin-bottom: 7px;
+		border-bottom: 1px solid #676a6f;
+		padding-bottom: 0;
+	}
+	p {
+		margin: 0;
+	}
+		.row {
+			.tpfooter {
+				margin-right:0;
+				min-height: 234px;
+			}
+		}
+	}
+}
